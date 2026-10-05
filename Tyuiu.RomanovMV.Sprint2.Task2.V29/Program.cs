@@ -15,7 +15,7 @@ namespace Tyuiu.RomanovMV.Sprint2.Task2.V29
             Console.Title = "Спринт #2 | Выполнил: Романов М. В. | ИИПБ-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт №2                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
+            Console.WriteLine("* Тема: Оператор if – полная и короткая форма записи                      *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
             Console.WriteLine("* Выполнил: Романов Максим Викторович | ИИПБ-26-1                         *");
