@@ -22,8 +22,8 @@ namespace Tyuiu.RomanovMV.Sprint2.Task1.V6
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт №2                                                               *");
             Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #15                                                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #6                                                             *");
             Console.WriteLine("* Выполнил: Романов Максим Викторович | ИИПБ-26-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
