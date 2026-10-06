@@ -8,15 +8,20 @@ namespace Tyuiu.RomanovMV.Sprint2.Task6.V15.Lib
         public string FindDayName(int k)
         {
 
+            if (k < 0 || k > 365)
+            {
+                throw new ArgumentException($"Значение {k} не входит в допустимый диапазон [0; 365]");
+            }
+
             switch (k % 7)
             {
-                case 1: return "понедельник";
-                case 2: return "вторник";
-                case 3: return "среда";
-                case 4: return "четверг";
-                case 5: return "пятница";
-                case 6: return "суббота";
-                case 0: return "воскресенье";
+                case 1: return "Понедельник";
+                case 2: return "Вторник";
+                case 3: return "Среда";
+                case 4: return "Четверг";
+                case 5: return "Пятница";
+                case 6: return "Суббота";
+                case 0: return "Воскресенье";
                 default: throw new ArgumentException($"Значение {k} не входит в допустимый диапазон [0; 365]");
             }
             
