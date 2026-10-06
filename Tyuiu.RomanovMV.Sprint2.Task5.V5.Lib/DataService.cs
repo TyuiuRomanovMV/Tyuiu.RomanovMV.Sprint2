@@ -11,31 +11,31 @@ namespace Tyuiu.RomanovMV.Sprint2.Task5.V5.Lib
             switch (value)
             {
                 case 6:
-                    name = "Шестрёрка";
+                    name = "шестрёрка";
                     break;
                 case 7:
-                    name = "Семёрка";
+                    name = "семёрка";
                     break;
                 case 8:
-                    name = "Восьмёрка";
+                    name = "восьмёрка";
                     break;
                 case 9:
-                    name = "Девятка";
+                    name = "девятка";
                     break;
                 case 10:
-                    name = "Десятка";
+                    name = "десятка";
                     break;
                 case 11:
-                    name = "Валет";
+                    name = "валет";
                     break;
                 case 12:
-                    name = "Дама";
+                    name = "дама";
                     break;
                 case 13:
-                    name = "Король";
+                    name = "король";
                     break;
                 case 14:
-                    name = "Туз";
+                    name = "туз";
                     break;
                 default:
                     throw new ArgumentException($"Номер карты должен быть от 6 до 14. Значение {value} - не подходит.");
